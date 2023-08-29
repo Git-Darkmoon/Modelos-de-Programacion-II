@@ -4,7 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sudoku 4x4</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #141414;
+        color: #fafafa;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      main {
+        width: 100%;
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      abbr {
+        color: #fa0;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <h1>
+        Open the <abbr title="Inspect with developer tools (F12)">console</abbr>
+      </h1>
+      <br />
+      <h4>And you'll see the Sudoku solution.</h4>
+    </main>
+  </body>
   <script src="script.js"></script>
 </html>
